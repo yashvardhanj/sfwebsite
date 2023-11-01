@@ -1,0 +1,187 @@
+.logo{
+    width: 10%;
+}
+
+.navbar-collapse{
+    padding-left: 50%;
+}
+
+.main-page {
+           
+    background-image: url('man2.avif'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+.main-text {
+    padding: 20px;
+    border-radius: 5px;
+}
+.projects{
+ height: 120vh;
+    
+}
+.text-center{
+    text-align: center;  
+}
+
+.project-heading{
+    padding-top:40px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.card:hover{
+    width:320px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card-row{
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  
+
+.contact-container {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    background-image: url('contact4.png');
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.achievement{
+    display: grid;
+    grid
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.achievement{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    row-gap: 48px;
+    column-gap:48px;
+    padding: 32px 64px;
+    margin-bottom: 96px;
+}
+
+.achieve{
+    display: flex;
+    border-radius: 12px;
+    overflow:hidden;
+    box-shadow: 0 12px 36px #00000040;
+    align-items: center;
+    gap:32px;
+}
+
+.achieve-1{
+    grid-column: 1/6;
+}
+
+.achieve-2{
+    grid-column: 6/-1;
+}
+
+.achieve-3{
+    grid-column: 1/4;
+}
+
+.achieve-4{
+    grid-column: 4/7;
+}
+
+.achieve-5{
+    grid-column: 7/-1;
+}
+
+.achieve-6{
+    grid-column: 1/7;
+}
+
+.exam{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+
+.achieve-section{
+    margin-top: 350px;
+}
